@@ -1,8 +1,7 @@
 {
     "compilerOptions": {
         "target": "ES2019",
-        "module": "CommonJS",
-        "moduleResolution": "node",
+        "module": "NodeNext",
         "strict": true,
         "types": [
             "brackets-model"
@@ -10,6 +9,10 @@
         "esModuleInterop": true,
         "allowSyntheticDefaultImports": true,
         "resolveJsonModule": true,
-        "noImplicitAny": true
+        "noImplicitAny": true,
+        "outDir": "dist/",
+        "sourceMap": true,
+        "declaration": true,
+        "declarationMap": true
     }
 }

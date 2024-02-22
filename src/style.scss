@@ -18,7 +18,7 @@
   /* Sizes */
   --text-size: 12px;
   --round-margin: 40px;
-  --match-width: 150px;
+  --match-width: 250px;
   --match-horizontal-padding: 8px;
   --match-vertical-padding: 6px;
   --connector-border-width: 2px;
@@ -33,9 +33,9 @@
 
   $match-border: var(--match-border-width) solid var(--border-color);
 
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-    "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial,
+    'Noto Sans', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    'Noto Color Emoji';
 
   &:empty {
     // Prevents a FOUC during loading.
@@ -184,7 +184,7 @@
 
     &.connect-next {
       &::after {
-        content: "";
+        content: '';
         display: block;
         position: absolute;
         right: calc(-1 * #{$connector-width});
@@ -251,7 +251,7 @@
 
     &.connect-previous {
       &::before {
-        content: "";
+        content: '';
         display: block;
         position: absolute;
         left: calc(-1 * #{$connector-width});
