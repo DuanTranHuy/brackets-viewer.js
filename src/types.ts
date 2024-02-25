@@ -7,7 +7,7 @@ import {
   FinalType,
   Id,
   StageType
-} from 'brackets-model'
+} from 'duan-brackets-model'
 import { CallbackFunction, FormConfiguration } from './form'
 import { InMemoryDatabase } from 'brackets-memory-db'
 import { BracketsViewer } from './main'

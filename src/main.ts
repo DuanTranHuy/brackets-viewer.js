@@ -7,7 +7,7 @@ import {
   GroupType,
   FinalType,
   Id
-} from 'brackets-model'
+} from 'duan-brackets-model'
 import {
   splitBy,
   getRanking,

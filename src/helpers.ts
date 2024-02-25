@@ -1,4 +1,4 @@
-import { Match, ParticipantResult, GroupType, MatchGame } from 'brackets-model'
+import { Match, ParticipantResult, GroupType, MatchGame } from 'duan-brackets-model'
 import {
   RankingHeader,
   Ranking,

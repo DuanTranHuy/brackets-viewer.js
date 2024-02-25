@@ -5,7 +5,7 @@ import {
   SeedOrdering,
   StageSettings,
   StageType
-} from 'brackets-model'
+} from 'duan-brackets-model'
 import { t } from './lang'
 import { Database, helpers } from 'brackets-manager'
 

@@ -1288,6 +1288,11 @@ doctrine@^3.0.0:
   dependencies:
     esutils "^2.0.2"
 
+duan-brackets-model@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/duan-brackets-model/-/duan-brackets-model-0.0.2.tgz#8c3ee760837b9bbc7169196fd94b8feba8c61238"
+  integrity sha512-l8izbgVLpeg8P3ZcwstvvkyrcJwbi4zxPGK3V9s+1IrdQKCctBSHJ71qcJOpB2pCrPqSXj1AbfYNPS2nYN7WQg==
+
 easy-extender@^2.3.4:
   version "2.3.4"
   resolved "https://registry.npmjs.org/easy-extender/-/easy-extender-2.3.4.tgz"

@@ -1,7 +1,7 @@
 import i18next, { StringMap, TOptions } from 'i18next'
 import LanguageDetector from 'i18next-browser-languagedetector'
 
-import { Stage, Status, FinalType, GroupType, StageType } from 'brackets-model'
+import { Stage, Status, FinalType, GroupType, StageType } from 'duan-brackets-model'
 import { isMajorRound } from './helpers'
 import { OriginHint, RoundNameInfo } from './types'
 

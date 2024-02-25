@@ -1,4 +1,4 @@
-import { Match, ParticipantResult, FinalType, GroupType, Id, MatchGame } from 'brackets-model'
+import { Match, ParticipantResult, FinalType, GroupType, Id, MatchGame } from 'duan-brackets-model'
 import { Connection, Placement, Ranking, RankingItem } from './types'
 import { isMatchGame, rankingHeader } from './helpers'
 import { t } from './lang'
